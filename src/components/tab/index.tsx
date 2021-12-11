@@ -62,6 +62,7 @@ const Tab = (props: any) => {
             setTabData={setTabData}
             index={index}
             handleDataChange={handleDataChange}
+            key={index}
           />
         ))}
         <AddTabItemModal
