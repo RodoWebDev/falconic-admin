@@ -1,0 +1,93 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: white;
+  padding: 30px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  button {
+    width: max-content;
+  }
+  .form-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    legend {
+      display: none;
+    }
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    &.btn_section {
+      justify-content: space-between;
+    }
+    &.list {
+      margin-top: 30px;
+    }
+    input, .MuiOutlinedInput-input {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    legend {
+      display: none;
+    }
+    .MuiSelect-select {
+      width: 100px;
+    }
+    .saveBtn {
+      background: #4caf50;
+    }
+  }
+  .section-content {
+    margin-top: 30px;
+    .btn_section {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      button {
+        margin-bottom: 10px;
+      }
+    }
+    .slider {
+      display: flex;
+      .slider_title {
+        flex: 3;
+      }
+      .slider_btnTitle {
+        flex: 1;
+      }
+      p {
+        display: flex;
+        align-items: center;
+      }
+      .slider_check {
+        width: 70px;
+        display: flex;
+        justify-content: left;
+        padding: 9px 0;
+        &.check {
+          width: 24px;
+          margin-right: 46px;
+        }
+      }
+    }
+    img {
+      height: 300px;
+    }
+    .subtitle {
+      color: black;
+      font-size: 20px;
+    }
+  }
+  .subtitle {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #27a9e0;
+  }
+}

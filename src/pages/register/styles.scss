@@ -1,0 +1,30 @@
+.login_container {
+  display: flex;
+  background-color: #67c2e9;
+  height: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  .login_form {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    align-items: center;
+    background: white;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    img {
+      margin: 30px 0;
+    }
+    .btn_section {
+      display: flex;
+      justify-content: space-evenly;
+      margin: 30px 0;
+      width: 100%;
+    }
+    .error {
+      color: red;
+    }
+  }
+}

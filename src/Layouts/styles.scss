@@ -1,0 +1,16 @@
+.side_nav {
+  .MuiListItemIcon-root {
+    svg {
+      font-size: 25px;
+    }
+  }
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.pop-out-main-container {
+  padding: 30px;
+}
